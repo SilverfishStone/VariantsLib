@@ -13,6 +13,6 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
       - name: Publish Package
-        run: ./gradlew publish
+        run: gradlew publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
