@@ -12,6 +12,8 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
+      - name: Make gradlew executable
+        run: chmod +x gradlew
       - name: Publish Package
         run: gradlew publish
         env:
