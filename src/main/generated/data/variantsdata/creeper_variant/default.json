@@ -1,0 +1,9 @@
+{
+  "asset_id": "minecraft:entity/creeper/creeper",
+  "id": "variantsdata:default",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

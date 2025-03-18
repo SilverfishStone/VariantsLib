@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "net.silverfishstone.variantsdata.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CreeperEntityMixin",
+    "SkeletonEntityMixin",
+    "SpiderEntityMixin",
+    "ZombieEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "AbstractSkeletonRendererMixin",
+    "CreeperEntityRenderStateMixin",
+    "CreeperRendererMixin",
+    "SkeletonEntityRenderStateMixin",
+    "SkeletonRendererMixin",
+    "SpiderEntityRenderStateMixin",
+    "SpiderRendererMixin",
+    "ZombieEntityRenderStateMixin",
+    "ZombieRendererMixin"
+  ]
+}
